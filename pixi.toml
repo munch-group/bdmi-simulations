@@ -1,0 +1,17 @@
+[workspace]
+authors = ["Kasper Munch <kaspermunch@birc.au.dk>"]
+channels = ["conda-forge"]
+name = "bdmi-simulations"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+jupyterlab = ">=4.4.6,<5"
+seaborn = ">=0.13.2,<0.14"
+scipy = ">=1.16.1,<2"
+ipython = ">=9.5.0,<10"
+multiprocess = ">=0.70.18,<0.71"
+tqdm = ">=4.67.1,<5"
+ipywidgets = ">=8.1.7,<9"

@@ -129,3 +129,6 @@ dmypy.json
 .pyre/
 
 /.quarto/
+# pixi environments
+.pixi/*
+!.pixi/config.toml

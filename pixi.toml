@@ -1,8 +1,8 @@
 [workspace]
 authors = ["Kasper Munch <kaspermunch@birc.au.dk>"]
-channels = ["conda-forge"]
+channels = ["conda-forge", "munch-group"]
 name = "bdmi-simulations"
-platforms = ["osx-arm64"]
+platforms = ["osx-arm64", "linux-64"]
 version = "0.1.0"
 
 [tasks]
@@ -15,3 +15,4 @@ ipython = ">=9.5.0,<10"
 multiprocess = ">=0.70.18,<0.71"
 tqdm = ">=4.67.1,<5"
 ipywidgets = ">=8.1.7,<9"
+vscodenb = ">=0.1.17,<0.2"
